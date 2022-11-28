@@ -121,16 +121,16 @@
     <div class="tab overflow-hidden">
       <OverflowMenu>
         <button class:selected={tab === 'ERC20'} on:click={() => tab = 'ERC20'}>
-          ERC20
+          Flow FT
         </button>
         <button class:selected={tab === 'ERC721'} on:click={() => tab = 'ERC721'}>
-          ERC721
+          Flow NFT
         </button>
         <button class:selected={tab === 'ERC1155'} on:click={() => tab = 'ERC1155'}>
-          ERC1155
+          Flow Coin
         </button>
         <button class:selected={tab === 'Governor'} on:click={() => tab = 'Governor'}>
-          Governor
+          CryptoKitties
         </button>
         <button class:selected={tab === 'Custom'} on:click={() => tab = 'Custom'}>
           Custom
